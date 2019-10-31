@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "project": {
+    "name": "vintage-sverige"
+  },
+  "api": {
+    "projectId": "l066o1cm",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
