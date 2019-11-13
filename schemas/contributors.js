@@ -1,5 +1,5 @@
 export default {
-  name: "contibutors",
+  name: "contributors",
   type: "document",
   title: "Site Contributors",
   fields: [
